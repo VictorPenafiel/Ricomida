@@ -1,0 +1,124 @@
+body {
+    font-family: "Cabin", sans-serif;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_titulo {
+    font-family: "Lobster", cursive;
+    color: white;
+    font-size: 30pt;
+}
+
+.titulo_main {
+    text-align: left;
+    font-size: 40pt;
+    padding-right: 15%;
+    padding-top: 2%;
+
+}
+.titulo_pizza {
+    font-weight: 700;
+}
+
+hr {
+    border-top: 3px solid black !important;
+}
+
+.buton_main {
+    border: 1px solid #DDDDDD;
+}
+
+
+
+/* Recetas */
+
+#recetas ol {
+	margin-left: 15px;
+  	padding: 0;
+}
+
+#recetas ol li {
+	margin-bottom: 15px;
+  	padding: 0;
+}
+
+#recetas h3{
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px black;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* Recomendaciones*/
+
+#tarjeta h2 {
+	border-top: solid 1px black;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#tarjeta .card-text {
+	font-size: 16px;
+}
+
+
+/* footer */
+
+#suscribe-section h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#suscribe-section h3 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#suscribe-section button {
+	width: 20%;
+}
+
+#suscribe-section h3 span,
+footer h2 {
+	font-family: 'Lobster';
+}
+
+footer h2 {
+	margin: 0;
+	font-size: 37px;
+}
+/*
+==============
+MEDIA QUERIES
+==============
+*/
+
+@media (max-width: 1200px) {
+	.carousel-indicators {
+		top: 170px;
+	}
+
+	header img {
+		margin-top: 55px;
+	}
+}
+
+@media (max-width: 992px) {
+	.carousel-indicators {
+		top: 120px;
+	}
+
+	header img {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	#prep-section .preparacion {
+		margin-top: 30px;
+	}
+}
